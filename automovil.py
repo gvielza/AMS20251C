@@ -30,9 +30,9 @@ print(f"velocidad 5 de {coche.velocidad}")'''
 
 class AutomovilVolador(Automovil):
    ruedas=6
-   def __init__(self, color, marca, aceleracion, velocidad,esta_volando):
+   def __init__(self, color, marca, aceleracion, velocidad,esta_volando=True):
       super().__init__(color, marca, aceleracion, velocidad)
-      esta_volando=True
+      
 autom_Volador=AutomovilVolador("verde","Ford",10,10,False)
 
 
