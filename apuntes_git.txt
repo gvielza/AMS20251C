@@ -1,0 +1,9 @@
+git init 
+git add .
+git commit -m "su comentario"(opcional)
+.....
+git config --global user.email "su correo"
+git config --global user.name "usuario"
+git remote add origin "repo.git"
+git commit -m "su comentario"
+git push origin master
