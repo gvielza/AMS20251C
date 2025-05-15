@@ -6,3 +6,6 @@ class Cuadrado(Figura):
     
     def area(self):
         return self.lado ** 2
+     
+    def perimetro(self):
+        return self.lado * 4 
