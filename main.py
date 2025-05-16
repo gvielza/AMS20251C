@@ -6,8 +6,9 @@ perímetro haciendo uso de la abtracción y mostrar resultados por consola.'''
 #área del cuadrado lado al cuadrado
 #área del círculo es pi por (radio al cuadrado)
 
-from cuadrado import Cuadrado
 from circulo import Circulo, OtroCirculo
+from cuadrado import Cuadrado 
+
 
 cuadrado1=Cuadrado(3)
 circulo1=Circulo(4)
