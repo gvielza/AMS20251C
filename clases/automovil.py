@@ -17,6 +17,8 @@ class Automovil(Vehiculo):
           self.velocidad=0
     def conducir(self):
       return "Conduciendo un automovil"
+    def datos(self):
+       return f"Soy un automovil de {self.ruedas} ruedas"
 
 #coche=Automovil("amarillo", "Toyota",10,10)
 

@@ -14,6 +14,13 @@ auto1.__modelo="Corola"
 auto1.set_modelo("Corolaaaaaaa")
 print(f"Año {auto1.get_modelo()}")
 
-#auto2=AutomovilVolador("verde","Ford",10,10)
+print("**************")
 
-#print(auto2.marca)
+auto2=AutomovilVolador(2024,"FOcus","verde","Ford",10,10)
+
+print(auto2.marca)
+
+def datos(vehiculo):
+    return vehiculo.datos()
+
+print(datos(auto2))
